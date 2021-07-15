@@ -56,6 +56,9 @@ const resultado = function () {
 
 }
 
+dados();
+
+resultado();
 
 
 botao.addEventListener("click", function () {
@@ -69,4 +72,4 @@ botao.addEventListener("click", function () {
 
     resultado();
 
-});
+});S

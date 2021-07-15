@@ -2,7 +2,14 @@ div.grafico {
     background-color: red;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
+}
+
+h1{
+    border: 2px dotted #1C6EA4;
+    border-radius: 40px 15px 35px 0px;
+    background-color: #d6bcd6;
+    padding: 2rem;
 }
 
 body {
@@ -16,22 +23,29 @@ body {
     
 }
 
-#bgimg{
-    filter: blur(8px);
-    -webkit-filter: blur(20px);
-}
-
 #saida {
-    border: 6px double #1C6EA4;
+    border: 2px dotted #1C6EA4;
     border-radius: 40px 15px 35px 0px;
-    padding: 50px;
-    background-color: cornsilk;
+    padding: 25px 25px 25px 25px;
+    background-color: #d6bcd6;
     
 
 }
 
 button {
     font-size: 1.3rem;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 1.2rem;
+    box-shadow: 3px 4px 15px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color: #6e586e;;
+	font-size:24px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
 }
